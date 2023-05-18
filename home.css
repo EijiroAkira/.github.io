@@ -4,22 +4,33 @@ body
     height: 100%;
     margin: 0;
 	background-size:100% ;
-	background-image: url(https://img.freepik.com/free-vector/happy-birthday-dark-background-with-glossy-balloons_1017-25817.jpg);
-	background-color: #41718d;
+	background-image: url(https://);
+	background-color: #0d1042;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .hadiah
 {
-	background-color: #570236;
+    opacity: 100%;
 	border: none;
-	color: white;
-	padding: 10px 20px;
+	color: #fff;
+	padding: 2px 3px;
 	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
+	display: flex;
+	font-size: 50px;
 	cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+a
+{
+    transition: 0.5s;
+}
+a:hover
+{
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
 }
 .card {
 	 position: relative;
@@ -28,7 +39,7 @@ body
 	 border: 10px solid #570236;
 	 margin: 60px auto 0 auto;
 	 box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
-     background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1527481138388-31827a7c94d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+     background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(255, 255, 255, 0.5)), url("https://wallpaperaccess.com/full/6574201.png");
 
 	background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
